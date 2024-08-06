@@ -123,7 +123,7 @@ Below are links to the comprehensive developer guide and model implementations f
       - `For Equipment hiring (leasing farming machinery and tools), select version : draft-agri_equipment`
       - `For Soil Testing and Assaying Service, select version : draft-agri_services`
       - `For Healthcare Services (Lab Test Booking), select version : draft-healthcare`
-      - `For Subcription based services, select version : draft-subscriptions`
+      - `For Subscription based services, select version : draft-subscriptions`
 
 - Ancillary Services
 
@@ -166,7 +166,7 @@ The network participants need to complete the end-to-end testing with ONDC refer
   - [NodeJS](https://github.com/ONDC-Official/reference-implementations/tree/main/utilities/ondc-crypto-sdk-nodejs)
   - [Python](https://github.com/ONDC-Official/reference-implementations/tree/main/utilities/signing_and_verification)
   - [GoLang](https://github.com/ONDC-Official/reference-implementations/tree/main/utilities/signing_and_verification/golang)
-- [Subcription process](https://github.com/ONDC-Official/reference-implementations/tree/main/utilities/on_subscibe-service) : This tool aids ONDC Network Participants during the subscription process for the registry (Staging, Pre Prod, Prod). It includes the implementation of the /on_subscribe API in both NodeJS and Python.
+- [Subscription process](https://github.com/ONDC-Official/reference-implementations/tree/main/utilities/on_subscibe-service) : This tool aids ONDC Network Participants during the subscription process for the registry (Staging, Pre Prod, Prod). It includes the implementation of the /on_subscribe API in both NodeJS and Python.
 - [Retail/IGM Log Verification](https://github.com/ONDC-Official/log-validation-utility) : This tool is designed for ONDC Network Participants to verify their transaction logs related to the Retail and IGM use cases on their end, ensuring accuracy before submission to the ONDC team for technical clearance.
 - [B2B/Logistics Log Verification](https://github.com/ONDC-Official/reference-implementations/tree/main/utilities/logistics-b2b/log-verification-utility) : This tool is designed for ONDC Network Participants to verify their transaction logs related to the B2B and Logistics use cases on their end, ensuring accuracy before submission to the ONDC team for technical clearance.
 - [vlookup](https://www.npmjs.com/package/vlookup-ondc) : This tool is developed to perform a registry lookup and retrieve details related to Network Participants (NP).
@@ -193,8 +193,8 @@ The network participants need to complete the end-to-end testing with ONDC refer
 |                      | Registry    | `https://preprod.registry.ondc.org/ondc/lookup`         |
 |                      |                     | `https://preprod.registry.ondc.org/ondc/vlookup`            |
 | **Production**       | Gateway     | `https://prod.gateway.ondc.org/search`                    |
-|                      | Registry    | `https://prod.registry.ondc.org/ondc/lookup`              |
-|                      |                     | `https://prod.registry.ondc.org/ondc/vlookup`              |
+|                      | Registry    | `https://prod.registry.ondc.org/lookup`              |
+|                      |                     | `https://prod.registry.ondc.org/vlookup`              |
 
 ## Network Observability for Production
 Refer to the following document for the Network Observability API Schema Requirements for the Production Environment
