@@ -18,7 +18,7 @@ This comprehensive guide is designed to walk you through the process of integrat
 5. [Signing and Verification](#signing-and-verification)
 6. [Enabled Domains](#enabled-domains)
 7. [Reference Applications](#reference-applications)
-8. [Utilities and Sandboxes](#utilities-and-sandboxes)
+8. [Utilities](#utilities)
 9. [Taxonomies](#taxonomies)
 10. [Product Requirement Documents (PRDs)](#product-requirement-documents)
 11. [Gateway and Registry Endpoints](#gateway-and-registry-endpoints)
@@ -187,7 +187,7 @@ The network participants need to complete the end-to-end testing with ONDC refer
 - [ONDC Reference Logistics Seller (LSP) App](https://ref-logistics-app-preprod.ondc.org/)
   - Github Repo [link](https://github.com/ONDC-Official/ref-logistics-app-sdk/tree/main)
 
-## Utilities and Sandboxes
+## Utilities
 
 - Signing and Verification : This tool is designed to support and aid ONDC Network Participants in constructing their own crypto libraries essential for engaging with the ONDC Network. It encompasses tasks such as key generation, signing, verification, encryption, and decryption.
   - [Java](https://github.com/ONDC-Official/reference-implementations/tree/main/utilities/ondc-crypto-utility-master)
