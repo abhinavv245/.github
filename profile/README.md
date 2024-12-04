@@ -18,7 +18,7 @@ This comprehensive guide is designed to walk you through the process of integrat
 5. [Signing and Verification](#signing-and-verification)
 6. [Enabled Domains](#enabled-domains)
 7. [Reference Applications](#reference-applications)
-8. [Utilities and Sandboxes](#utilities-and-sandboxes)
+8. [Utilities](#utilities)
 9. [Taxonomies](#taxonomies)
 10. [Product Requirement Documents (PRDs)](#product-requirement-documents)
 11. [Gateway and Registry Endpoints](#gateway-and-registry-endpoints)
@@ -100,53 +100,34 @@ It is important to implement **Catalog & Store Rejection Framework** for the **R
   
 - ### Financial Services (FIS)
   This domain facilitates easy access to a spectrum of financial solutions, covering loans, insurance, investments.
-  
-  - [PRD](https://drive.google.com/drive/folders/14eHd-AQm-lkyBoh6JZDk1kCuVQxvTMFE)
-  - [Financial Services Developer Guide](https://ondc-official.github.io/ONDC-FIS-Specifications/)
 
-       - `For Personal Loan , select Version : release-FIS12-2.0.0`
-       - `For Invoice based Loan , select Version : draft-FIS12-invoice-2.1.0`
-       - `For Health Insurance , select version : draft-health`
-       - `For Motor Insurance , select version : draft-motor`
-       - `For Marine Insurance , select version : draft-marine`
-       - `For Investments , select version : draft-FIS14-enhancements`
-   - [Commonly asked questions](https://docs.google.com/document/d/1JH9zAK5S3po6GRv6BCdOddxYN6AzjgO57YQE8pVn6lQ/edit) <sub>_(Not found the question you were looking for? Leave a comment in the document & we will revert)_</sub>
-  - [Gift Card](https://docs.google.com/document/d/1iTCQd_jI3mRqgSiaeZBvxWL-G_wkE__xxW-Wua8arVE/edit)
+| **Domain**              | **API Contract/ Developer Guide**                                                                                                                                                                                                                                                                                                                                                                 | **Test Scenarios**         | **Log Utility**                              | **Mock Server/ Sandbox/ Reference Application**      | **FAQs**                                                                                                                                                  |
+|--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|----------------------------------------------|------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Financial Services**   | - [PRD](https://drive.google.com/drive/folders/14eHd-AQm-lkyBoh6JZDk1kCuVQxvTMFE)  <br> - [Financial Services Developer Guide](https://ondc-official.github.io/ONDC-FIS-Specifications/)  <br> **Select version**:  <br>- For Personal Loan: `release-FIS12-2.0.0`  <br> - For Invoice-based Loan: `draft-FIS12-invoice-2.1.0`  <br> - For Health Insurance: `draft-health`  <br> - For Motor Insurance: `draft-motor`  <br> - For Marine Insurance: `draft-marine`  <br> - For Investments: `draft-FIS14-enhancements` | Refer to LogSubmission-UI in the developer guide  | [FIS Log Verification](https://github.com/ONDC-Official/log-validation-utility) | Refer to Sandbox-UI in the developer guide          | [Financial Services FAQs](https://docs.google.com/document/d/1JH9zAK5S3po6GRv6BCdOddxYN6AzjgO57YQE8pVn6lQ/edit)                                                            |
+| **Gift Cards**           | [API Specifications](https://docs.google.com/document/d/1iTCQd_jI3mRqgSiaeZBvxWL-G_wkE__xxW-Wua8arVE/edit)                                                                                                                                                                                                                                                                                        | NA                         | NA                                           | NA                                                   | NA                                                                                                                                                        |
+
 
 - ### Travel & Tourism/ Mobility (TRV)
   This domain enables easy access to a range of travel-related services, covering On-demand Ride hailing with various transport modes, ticket booking without designated seat, airlines, hotels, intercity bus, entry ticket pass, etc.
 
-  - [PRD](https://drive.google.com/drive/folders/14eHd-AQm-lkyBoh6JZDk1kCuVQxvTMFE)
-  - [Mobility Specifications Developer Guide](https://ondc-official.github.io/mobility-specification/)
+| **Domain**   | **API Contract/ Developer Guide**                                                                                                                                                                                                                                                                                                                                                                | **Test Scenarios**                              | **Log Utility**                                      | **Mock Server/ Sandbox/ Reference Application** | **FAQs**                                                                                                                                               |
+|--------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|----------------------------------------------------|-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Mobility** | - [PRD](https://drive.google.com/drive/folders/14eHd-AQm-lkyBoh6JZDk1kCuVQxvTMFE)  <br> - [Mobility Specifications Developer Guide](https://ondc-official.github.io/ONDC-FIS-Specifications/)  <br><br> **Select version:**  <br> - For On-demand Ride hailing: `release-TRV10-2.0.1`  <br> - For Unreserved Ticket Booking (metro/intracity bus): `release-TRV11-2.0.0`  <br> - For Intercity Bus Ticket Booking: `draft-TRV12-intercity`  <br> - For Airlines Booking: `draft-TRV12-airline`  <br> - For Hotel Booking: `draft-TRV13-hotel`  <br> - For Unreserved Entry Pass (heritage sites, museums, concerts, etc.): `draft-TRV14-2.0.0` | Refer to LogSubmission-UI in the developer guide | [Mobility Log Verification](https://github.com/ONDC-Official/log-validation-utility) | Refer to Sandbox-UI in the developer guide | [Mobility FAQs](https://docs.google.com/document/d/138tJ_zzt5yIi46b3WsY2UeBU1rJeGXZTG4ivheT87CM/edit) |
 
-      - `For On-demand Ride hailing, select version : release-TRV10-2.0.1`
-      - `For Unreserved Ticket Booking (metro and intracity bus), select version : release-TRV11-2.0.0`
-      - `For Intercity bus ticket booking, select version : draft-TRV12-intercity`
-      - `For Airlines Booking, select version : draft-TRV12-airline`
-      - `For Hotel Booking, select version : draft-TRV13-hotel`
-      - `For Unreserved Entry Pass (heritage sights, museums, concerts, etc), select version : draft-TRV14-2.0.0`
-
-   - [Commonly asked questions](https://docs.google.com/document/d/138tJ_zzt5yIi46b3WsY2UeBU1rJeGXZTG4ivheT87CM/edit) <sub>_(Not found the question you were looking for? Leave a comment in the document & we will revert)_</sub>
 
 - ### Services (SRV)
   This domain empowers individuals to effortlessly access a diverse array of services, covering skilled services like **home painting, chefs and consulations, auction of agricultural outputs, leasing farming machinery and tools, soil testing, assaying services, lab testing, subscriptions**, etc.
 
-  - [PRD](https://drive.google.com/drive/folders/14eHd-AQm-lkyBoh6JZDk1kCuVQxvTMFE)
-  - [v2.0.0](https://github.com/ONDC-Official/ONDC-SRV-Specifications)
-  - [Services Developer Guide](https://ondc-official.github.io/ONDC-SRV-Specifications/#)
+| **Domain**   | **API Contract/ Developer Guide**                                                                                                                                                                                                                                                                                                                                                                | **Test Scenarios**                              | **Log Utility**                                      | **Mock Server/ Sandbox/ Reference Application** | **FAQs**                                                                                                                                               |
+|--------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|----------------------------------------------------|-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Services** | - [PRD](https://drive.google.com/drive/folders/14eHd-AQm-lkyBoh6JZDk1kCuVQxvTMFE)  <br> - [v2.0.0](https://github.com/ONDC-Official/ONDC-SRV-Specifications)  <br> - [Services Developer Guide](https://ondc-official.github.io/ONDC-SRV-Specifications/#)  <br><br> **Select version:**  <br> - For Skilled Services: `release-services`  <br> - For Auction of Agricultural Outputs: `draft-agri_bids_and_auction`  <br> - For Equipment Hiring (leasing farming machinery and tools): `draft-agri_equipment`  <br> - For Soil Testing and Assaying Service: `draft-agri_services`  <br> - For Healthcare Services (Lab Test Booking): `draft-healthcare` | NA                                             | [Services Log Verification](https://github.com/ONDC-Official/log-validation-utility) | [Sandbox](https://mock.ondc.org/) | [Services FAQs](https://docs.google.com/document/d/1e_nGOnYb4ld1kxjhOHOsXXOms96aDd6txD8Wh2wl6tk/edit) |
 
-      - `For Skilled Services, select version : release-services`
-      - `For Auction of Agricultural Outputs, select version : draft-agri_bids_and_auction`
-      - `For Equipment hiring (leasing farming machinery and tools), select version : draft-agri_equipment`
-      - `For Soil Testing and Assaying Service, select version : draft-agri_services`
-      - `For Healthcare Services (Lab Test Booking), select version : draft-healthcare`
-   - [Sandbox](https://mock.ondc.org/)
-   - [Commonly asked questions](https://docs.google.com/document/d/1e_nGOnYb4ld1kxjhOHOsXXOms96aDd6txD8Wh2wl6tk/edit) <sub>_(Not found the question you were looking for? Leave a comment in the document & we will revert)_</sub>
 
 - ### Media, Entertainment, Content (MEC)
-  - [PRD](https://drive.google.com/drive/folders/14eHd-AQm-lkyBoh6JZDk1kCuVQxvTMFE)
-  - [v2.0.0](https://github.com/ONDC-Official/ONDC-MEC-Specifications/tree/draft-print_media)
-  - [Media, Entertainment, Content Developer Guide](https://ondc-official.github.io/ONDC-MEC-Specifications/)
+
+| **Domain**               | **API Contract/ Developer Guide**                                                                                                                                                                                                                                          | **Test Scenarios**                              | **Log Utility**                                      | **Mock Server/ Sandbox/ Reference Application** | **FAQs**                                                                                                                                               |
+|--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|----------------------------------------------------|-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Media, Entertainment, Content (MEC)** | - [PRD](https://drive.google.com/drive/folders/14eHd-AQm-lkyBoh6JZDk1kCuVQxvTMFE)  <br> - [v2.0.0](https://github.com/ONDC-Official/ONDC-MEC-Specifications/tree/draft-print_media)  <br> - [Media, Entertainment, Content Developer Guide](https://ondc-official.github.io/ONDC-MEC-Specifications/) | NA                                             | NA | NA | NA|
 
 - ### Ancilliary Services
   - **Issue & Grievance Management (IGM)** within the ONDC Network serves as a critical mechanism for resolving disputes and concerns among Network Participants (NPs).
@@ -156,8 +137,8 @@ It is important to implement **Catalog & Store Rejection Framework** for the **R
     
 |**Domain**|**API Contract/ Developer Guide**|**Test Scenarios**|**Log Utility/ Sandbox**|**Mock Server/ Reference Application**|**FAQs**|
 |---------------------|---------------------------------|------------------|------------------------|----------|------|
-|**IGM**|[Developer Guide v2.0.0](https://ondc-official.github.io/ONDC-NTS-Specifications/) `select version: draft-igm-2.0.0`|[Test Case Scenarios (IGM)](https://docs.google.com/document/d/1tx86sypacIRXgL9nlNBdvHz7cYQjQoyC/edit)|[IGM Log Verification](https://github.com/ONDC-Official/log-validation-utility)|NA|[IGM FAQs](https://docs.google.com/document/d/1-NULesI1Z6GQ9y4Z0loGEG5yfunX5u9woON-qxYH6w0/edit)|
-|**RSF**|[Developer Guide v2.0.0](https://ondc-official.github.io/ONDC-NTS-Specifications/) `select version: draft-rsf-2.0.0`|[Test Case Scenarios (RSF)](https://docs.google.com/document/d/1tx86sypacIRXgL9nlNBdvHz7cYQjQoyC/edit)|NA|[RSF Mock Server](https://github.com/ONDC-Official/mock-server-utility)|[RSF FAQs](https://docs.google.com/document/d/19TCvuwwvOklt9Ev-SKkcXRAdvh6Qyhl9tI1Z_YavHMk/edit)|
+|**IGM**|[Developer Guide v2.0.0](https://ondc-official.github.io/ONDC-NTS-Specifications/) `select version: draft-igm-2.0.0`|NA|NA|NA|[IGM FAQs](https://docs.google.com/document/d/1-NULesI1Z6GQ9y4Z0loGEG5yfunX5u9woON-qxYH6w0/edit)|
+|**RSF**|[Developer Guide v2.0.0](https://ondc-official.github.io/ONDC-NTS-Specifications/) `select version: draft-rsf-2.0.0`|[Test case scenarios - RSF 2.0](https://docs.google.com/document/d/1rHmQ8joTsT2HDmZdXhPlUKy5QSrJiQuEkTAjLDcNVoA/edit?pli=1&tab=t.0#heading=h.5vjft1c1kj0t)|[Refer to this document for testing](https://docs.google.com/document/d/1rHmQ8joTsT2HDmZdXhPlUKy5QSrJiQuEkTAjLDcNVoA/edit?pli=1&tab=t.0#heading=h.58rk098qk22i)|NA|[RSF FAQs](https://docs.google.com/document/d/19TCvuwwvOklt9Ev-SKkcXRAdvh6Qyhl9tI1Z_YavHMk/edit)|
 |**Rating**|[v1.2.0](https://docs.google.com/document/d/1VaafY8t47hjpoW6tdezGsPwLwxxaAaGc/edit)|NA|NA|NA|NA|
 |**Score**|[v1.2.0](https://docs.google.com/document/d/126O1wFdA-IuwojiAuLzdpN36vjWfQg9KOA2zRd9-zTY/edit#heading=h.bifjra7hj5b0)|NA|NA|NA|NA|
 
@@ -171,6 +152,8 @@ The network participants need to complete the end-to-end testing with ONDC refer
   - Github Repo [link](https://github.com/ONDC-Official/seller-app-sdk/tree/master)
 - [ONDC Reference Buyer App](https://ref-app-buyer-staging-v2.ondc.org/login)
   - Github Repo [link](https://github.com/ONDC-Official/ondc-sdk)
+- ONDC Reference Mobile Buyer App
+  - Github Repo [link](https://github.com/ONDC-Official/ONDC-Mobile-Buyer-App)
 - [ONDC Reference Logistics Seller (LSP) App](https://ref-logistics-app-stage.ondc.org/)
   - Github Repo [link](https://github.com/ONDC-Official/ref-logistics-app-sdk/tree/main)
 
@@ -180,10 +163,12 @@ The network participants need to complete the end-to-end testing with ONDC refer
   - Github Repo [link](https://github.com/ONDC-Official/seller-app-sdk/tree/master)
 - [ONDC Reference Buyer App](https://buyer-app-preprod-v2.ondc.org/login)
   - Github Repo [link](https://github.com/ONDC-Official/ondc-sdk)
+- ONDC Reference Mobile Buyer App
+  - Github Repo [link](https://github.com/ONDC-Official/ONDC-Mobile-Buyer-App)
 - [ONDC Reference Logistics Seller (LSP) App](https://ref-logistics-app-preprod.ondc.org/)
   - Github Repo [link](https://github.com/ONDC-Official/ref-logistics-app-sdk/tree/main)
 
-## Utilities and Sandboxes
+## Utilities
 
 - Signing and Verification : This tool is designed to support and aid ONDC Network Participants in constructing their own crypto libraries essential for engaging with the ONDC Network. It encompasses tasks such as key generation, signing, verification, encryption, and decryption.
   - [Java](https://github.com/ONDC-Official/reference-implementations/tree/main/utilities/ondc-crypto-utility-master)
