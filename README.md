@@ -19,8 +19,6 @@ This comprehensive guide is designed to walk you through the process of integrat
 6. [Enabled Domains](#enabled-domains)
 7. [Reference Applications](#reference-applications)
 8. [Utilities](#utilities)
-9. [For Technical support](#for-technical-support)  
-
 
 ## Getting Started
 
@@ -153,11 +151,3 @@ The network participants need to complete the end-to-end testing with ONDC refer
 - [vlookup](https://www.npmjs.com/package/vlookup-ondc) : This tool is developed to perform a registry lookup and retrieve details related to Network Participants (NP).
 - [RSF Mock Server](https://github.com/ONDC-Official/mock-server-utility) : The RSF Mock Server is a tool specifically designed to test network integration for Reconcillation and Settlement Framework (RSF) , based on ONDC model implementation.
 
-## For Technical support:
-
-1. **Chatbot Assistance**  
-   Get instant support for your queries on ONDC Network and Integration journey through our AI-powered chatbot.  
-   - Launch Chatbot ONDC Buddy: [Link](https://buddy.ondc.org/)  
-
-2. **Email Support**  
-   For further technical assistance, our dedicated technical support team is reachable by email at: [techsupport@ondc.org](mailto:techsupport@ondc.org)
