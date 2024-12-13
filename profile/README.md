@@ -24,6 +24,7 @@ This comprehensive guide is designed to walk you through the process of integrat
 11. [Gateway and Registry Endpoints](#gateway-and-registry-endpoints)
 12. [Network Observability for Production](#network-observability-for-production)
 13. [Catalog and Store Rejection](#catalog-and-store-rejection)
+14. [For Technical support](#for-technical-support)  
 
 
 ## Getting Started
@@ -211,3 +212,12 @@ Refer to the following document for the Catalog and Store Rejection Report - Fra
 >[Catalog Rejection](https://docs.google.com/document/d/1y_kBhwSwyN2D39VucTtqEQdp7WSEGYMg/edit)
 
 >[Swagger Document](https://app.swaggerhub.com/apis/ONDC/Catalog_Status_APIs/1.2.0#)
+
+## For Technical support:
+
+1. **Chatbot Assistance**  
+   Get instant support for your queries on ONDC Network and Integration journey through our AI-powered chatbot.  
+   - Launch Chatbot ONDC Buddy: [Link](https://buddy.ondc.org/)  
+
+2. **Email Support**  
+   For further technical assistance, our dedicated technical support team is reachable by email at: [techsupport@ondc.org](mailto:techsupport@ondc.org)

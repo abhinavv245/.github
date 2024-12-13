@@ -150,5 +150,3 @@ The network participants need to complete the end-to-end testing with ONDC refer
 - [B2B/Logistics Log Verification](https://github.com/ONDC-Official/reference-implementations/tree/main/utilities/logistics-b2b/log-verification-utility) : This tool is designed for ONDC Network Participants to verify their transaction logs related to the B2B and Logistics use cases on their end, ensuring accuracy before submission to the ONDC team for technical clearance.
 - [vlookup](https://www.npmjs.com/package/vlookup-ondc) : This tool is developed to perform a registry lookup and retrieve details related to Network Participants (NP).
 - [RSF Mock Server](https://github.com/ONDC-Official/mock-server-utility) : The RSF Mock Server is a tool specifically designed to test network integration for Reconcillation and Settlement Framework (RSF) , based on ONDC model implementation.
-
-
