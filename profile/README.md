@@ -172,7 +172,7 @@ It is important to implement **Catalog & Store Rejection Framework** for the **R
 
 ## ONDC Tech Logs Verification
 
-Process for Network Participants (NPs) to submit logs for ONDC protocol compliance verification is mentioned [here](https://docs.google.com/document/d/103KM--QqGEuKzy1JBcCjYqSG2ZTJwphswmEiyZMJ6Oo/edit?tab=t.0)
+Process for Network Participants (NPs) to submit logs for ONDC protocol compliance verification is documented [here](https://docs.google.com/document/d/103KM--QqGEuKzy1JBcCjYqSG2ZTJwphswmEiyZMJ6Oo/edit?tab=t.0)
 
 ## Reference Applications
 
