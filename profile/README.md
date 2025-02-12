@@ -25,7 +25,7 @@ This comprehensive guide is designed to walk you through the process of integrat
 12. [Gateway and Registry Endpoints](#gateway-and-registry-endpoints)
 13. [Network Observability for Production](#network-observability-for-production)
 14. [Catalog and Store Rejection](#catalog-and-store-rejection)
-15. [Technical support](#for-technical-support)
+15. [Technical support](#technical-support)
 
 ## Getting Started
 
