@@ -80,16 +80,20 @@ The complete process is documented [here](https://github.com/ONDC-Official/devel
 ## Gateway and Registry Endpoints
 
 | **Environment**    | **Endpoint For** | **URL**                                                                                     |
-| ------------------------ | ---------------------- | ------------------------------------------------------------------------------------------------- |
-| **Staging**        | Gateway                | [`https://staging.gateway.proteantech.in/search`](https://staging.gateway.proteantech.in/search)   |
-|                          | Registry               | [`https://staging.registry.ondc.org/lookup`](https://staging.registry.ondc.org/lookup)             |
-|                          |                        | [`https://staging.registry.ondc.org/vlookup`](https://staging.registry.ondc.org/vlookup)           |
-| **Pre-Production** | Gateway                | [`https://preprod.gateway.ondc.org/search`](https://preprod.gateway.ondc.org/search)               |
-|                          | Registry               | [`https://preprod.registry.ondc.org/ondc/lookup`](https://preprod.registry.ondc.org/ondc/lookup)   |
-|                          |                        | [`https://preprod.registry.ondc.org/ondc/vlookup`](https://preprod.registry.ondc.org/ondc/vlookup) |
-| **Production**     | Gateway                | [`https://prod.gateway.ondc.org/search`](https://prod.gateway.ondc.org/search)                     |
-|                          | Registry               | [`https://prod.registry.ondc.org/lookup`](https://prod.registry.ondc.org/lookup)                   |
-|                          |                        | [`https://prod.registry.ondc.org/vlookup`](https://prod.registry.ondc.org/vlookup)                 |
+| ------------------ | ---------------- | ------------------------------------------------------------------------------------------- |
+| **Staging**        | Gateway          | [`https://staging.gateway.proteantech.in/search`](https://staging.gateway.proteantech.in/search)   |
+|                    | Registry          |[`https://staging.registry.ondc.org/v2.0/lookup`](https://staging.registry.ondc.org/v2.0/lookup)   |
+|                    |           | [`https://staging.registry.ondc.org/lookup`](https://staging.registry.ondc.org/lookup)(To be deprecated)             |
+|                    |                  | [`https://staging.registry.ondc.org/vlookup`](https://staging.registry.ondc.org/vlookup)(To be deprecated)           |
+| **Pre-Production** | Gateway          | [`https://preprod.gateway.ondc.org/search`](https://preprod.gateway.ondc.org/search)               |
+|                    | Registry   | [`https://preprod.registry.ondc.org/v2.0/lookup`](https://preprod.registry.ondc.org/v2.0/lookup) |
+|                    |           | [`https://preprod.registry.ondc.org/ondc/lookup`](https://preprod.registry.ondc.org/ondc/lookup)(To be deprecated)   |
+|                    |                  | [`https://preprod.registry.ondc.org/ondc/vlookup`](https://preprod.registry.ondc.org/ondc/vlookup)(To be deprecated) |
+| **Production**     | Gateway          | [`https://prod.gateway.ondc.org/search`](https://prod.gateway.ondc.org/search)                     |
+|                    | Registry   | [`https://prod.registry.ondc.org/v2.0/lookup`](https://prod.registry.ondc.org/v2.0/lookup)         |
+|                    |          | [`https://prod.registry.ondc.org/lookup`](https://prod.registry.ondc.org/lookup)(To be deprecated)                   |
+|                    |                  | [`https://prod.registry.ondc.org/vlookup`](https://prod.registry.ondc.org/vlookup) (To be deprecated)                |
+
 
 ## Enabled Domains
 
