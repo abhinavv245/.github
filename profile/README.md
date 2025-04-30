@@ -90,8 +90,8 @@ The complete process is documented [here](https://github.com/ONDC-Official/devel
 |                    |                  | [`https://preprod.registry.ondc.org/ondc/vlookup`](https://preprod.registry.ondc.org/ondc/vlookup)(Deprecated) |
 | **Production**     | Gateway          | [`https://prod.gateway.ondc.org/search`](https://prod.gateway.ondc.org/search)                     |
 |                    | Registry   | [`https://prod.registry.ondc.org/v2.0/lookup`](https://prod.registry.ondc.org/v2.0/lookup)         |
-|                    |          | [`https://prod.registry.ondc.org/lookup`](https://prod.registry.ondc.org/lookup)(Deprecated)                   |
-|                    |                  | [`https://prod.registry.ondc.org/vlookup`](https://prod.registry.ondc.org/vlookup) (Deprecated)                |
+|                    |          | [`https://prod.registry.ondc.org/lookup`](https://prod.registry.ondc.org/lookup)(To be deprecated)                   |
+|                    |                  | [`https://prod.registry.ondc.org/vlookup`](https://prod.registry.ondc.org/vlookup) (To be deprecated)                |
 
 
 ## Enabled Domains
