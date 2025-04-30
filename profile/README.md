@@ -75,7 +75,6 @@ The complete process is documented [here](https://github.com/ONDC-Official/devel
   - [GoLang](https://github.com/ONDC-Official/reference-implementations/tree/main/utilities/signing_and_verification/golang)
   - [PHP](https://github.com/ONDC-Official/reference-implementations/tree/main/utilities/signing_and_verification/php)
 - [Subscription process](https://github.com/ONDC-Official/reference-implementations/tree/main/utilities/on_subscibe-service) : This tool aids ONDC Network Participants during the subscription process for the registry (Staging, Pre Prod, Prod). It includes the implementation of the /on_subscribe API in both NodeJS and Python.
-- [vlookup](https://www.npmjs.com/package/vlookup-ondc) : This tool is developed to perform a registry lookup and retrieve details related to Network Participants (NP).
 
 ## Gateway and Registry Endpoints
 
@@ -83,16 +82,16 @@ The complete process is documented [here](https://github.com/ONDC-Official/devel
 | ------------------ | ---------------- | ------------------------------------------------------------------------------------------- |
 | **Staging**        | Gateway          | [`https://staging.gateway.proteantech.in/search`](https://staging.gateway.proteantech.in/search)   |
 |                    | Registry          |[`https://staging.registry.ondc.org/v2.0/lookup`](https://staging.registry.ondc.org/v2.0/lookup)   |
-|                    |           | [`https://staging.registry.ondc.org/lookup`](https://staging.registry.ondc.org/lookup)(To be deprecated)             |
-|                    |                  | [`https://staging.registry.ondc.org/vlookup`](https://staging.registry.ondc.org/vlookup)(To be deprecated)           |
+|                    |           | [`https://staging.registry.ondc.org/lookup`](https://staging.registry.ondc.org/lookup)(Deprecated)             |
+|                    |                  | [`https://staging.registry.ondc.org/vlookup`](https://staging.registry.ondc.org/vlookup)(Deprecated)           |
 | **Pre-Production** | Gateway          | [`https://preprod.gateway.ondc.org/search`](https://preprod.gateway.ondc.org/search)               |
 |                    | Registry   | [`https://preprod.registry.ondc.org/v2.0/lookup`](https://preprod.registry.ondc.org/v2.0/lookup) |
-|                    |           | [`https://preprod.registry.ondc.org/ondc/lookup`](https://preprod.registry.ondc.org/ondc/lookup)(To be deprecated)   |
-|                    |                  | [`https://preprod.registry.ondc.org/ondc/vlookup`](https://preprod.registry.ondc.org/ondc/vlookup)(To be deprecated) |
+|                    |           | [`https://preprod.registry.ondc.org/ondc/lookup`](https://preprod.registry.ondc.org/ondc/lookup)(Deprecated)   |
+|                    |                  | [`https://preprod.registry.ondc.org/ondc/vlookup`](https://preprod.registry.ondc.org/ondc/vlookup)(Deprecated) |
 | **Production**     | Gateway          | [`https://prod.gateway.ondc.org/search`](https://prod.gateway.ondc.org/search)                     |
 |                    | Registry   | [`https://prod.registry.ondc.org/v2.0/lookup`](https://prod.registry.ondc.org/v2.0/lookup)         |
-|                    |          | [`https://prod.registry.ondc.org/lookup`](https://prod.registry.ondc.org/lookup)(To be deprecated)                   |
-|                    |                  | [`https://prod.registry.ondc.org/vlookup`](https://prod.registry.ondc.org/vlookup) (To be deprecated)                |
+|                    |          | [`https://prod.registry.ondc.org/lookup`](https://prod.registry.ondc.org/lookup)(Deprecated)                   |
+|                    |                  | [`https://prod.registry.ondc.org/vlookup`](https://prod.registry.ondc.org/vlookup) (Deprecated)                |
 
 
 ## Enabled Domains
