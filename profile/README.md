@@ -270,10 +270,10 @@ Refer to the following document for the Network Observability API Schema Require
 
 ## Latest Updates
 
-| Item                  | Date       | Link                                                                                                                                                                     |
-| --------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [Updated] Reason Code | 12/06/2025 | [Reason codes]()                                                                                                                                                            |
-| Implementation Notes  | 12/06/2025 | [Implementation Note: Changes &amp; v1.2.5](https://docs.google.com/document/d/1f0BhkGAoAi79lXGhI9qS-MhwdsSK390iJT1KjGMWoc4/edit?tab=t.cnakitx4ijzq#heading=h.we5gaquq88h4) |
-| Force Cancellation    | 12/06/2025 | [Implementation Note: Changes &amp; v1.2.5](https://docs.google.com/document/d/1f0BhkGAoAi79lXGhI9qS-MhwdsSK390iJT1KjGMWoc4/edit?tab=t.tbw83ne54agk#heading=h.hsb8ut13qlci) |
-| Feature List          | 12/06/2025 | [Feature List](https://docs.google.com/spreadsheets/d/1tINL6xyYXG1mKjvnO9Mtzr_MRMHiRzTVqJbyyQyHEgQ/edit?gid=147707807#gid=147707807)                                        |
-| Lookup API Update     | 12/06/2025 | [FAQ Draft v0.2](https://docs.google.com/document/d/1Tj_tcex65WjLKflt9a8cxp2L4kNFLTpbgXHk5J2EpaY/edit?tab=t.0#heading=h.hzrjpor3fbt1)                                       |
+| Domain | Item                  | Date       | Link                                                                                                                                                                     |
+| ------ | --------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Retail | [Updated] Reason Code | 12/06/2025 | [Reason codes]()                                                                                                                                                            |
+| Retail | Implementation Notes  | 12/06/2025 | [Implementation Note: Changes &amp; v1.2.5](https://docs.google.com/document/d/1f0BhkGAoAi79lXGhI9qS-MhwdsSK390iJT1KjGMWoc4/edit?tab=t.cnakitx4ijzq#heading=h.we5gaquq88h4) |
+| Retail | Force Cancellation    | 12/06/2025 | [Implementation Note: Changes &amp; v1.2.5](https://docs.google.com/document/d/1f0BhkGAoAi79lXGhI9qS-MhwdsSK390iJT1KjGMWoc4/edit?tab=t.tbw83ne54agk#heading=h.hsb8ut13qlci) |
+| Retail | Feature List          | 12/06/2025 | [Feature List](https://docs.google.com/spreadsheets/d/1tINL6xyYXG1mKjvnO9Mtzr_MRMHiRzTVqJbyyQyHEgQ/edit?gid=147707807#gid=147707807)                                        |
+| Retail | Lookup API Update     | 12/06/2025 | [FAQ Draft v0.2](https://docs.google.com/document/d/1Tj_tcex65WjLKflt9a8cxp2L4kNFLTpbgXHk5J2EpaY/edit?tab=t.0#heading=h.hzrjpor3fbt1)                                       |
