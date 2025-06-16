@@ -272,7 +272,7 @@ Refer to the following document for the Network Observability API Schema Require
 
 | Domain | Item                  | Date       | Link                                                                                                                                                                     |
 | ------ | --------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Retail | [Updated] Reason Code | 12/06/2025 | [Reason codes]()                                                                                                                                                            |
+| Retail | [Updated] Reason Code | 12/06/2025 | [Reason codes](https://docs.google.com/spreadsheets/d/1_qAtG6Bu2we3AP6OpXr4GVP3X-32v2xNRNSYQhhR6kA/edit?gid=814799303#gid=814799303)                                        |
 | Retail | Implementation Notes  | 12/06/2025 | [Implementation Note: Changes &amp; v1.2.5](https://docs.google.com/document/d/1f0BhkGAoAi79lXGhI9qS-MhwdsSK390iJT1KjGMWoc4/edit?tab=t.cnakitx4ijzq#heading=h.we5gaquq88h4) |
 | Retail | Force Cancellation    | 12/06/2025 | [Implementation Note: Changes &amp; v1.2.5](https://docs.google.com/document/d/1f0BhkGAoAi79lXGhI9qS-MhwdsSK390iJT1KjGMWoc4/edit?tab=t.tbw83ne54agk#heading=h.hsb8ut13qlci) |
 | Retail | Feature List          | 12/06/2025 | [Feature List](https://docs.google.com/spreadsheets/d/1tINL6xyYXG1mKjvnO9Mtzr_MRMHiRzTVqJbyyQyHEgQ/edit?gid=147707807#gid=147707807)                                        |
