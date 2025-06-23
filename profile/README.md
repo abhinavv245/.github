@@ -259,7 +259,7 @@ Refer to the following document for the Catalog and Store Rejection Report - Fra
 
 Refer to the following document for the City-Pincode mapping and State codes
 
-> [City and State Codes]([https://docs.google.com/document/d/1y_kBhwSwyN2D39VucTtqEQdp7WSEGYMg/edit](https://docs.google.com/spreadsheets/d/12A_B-nDtvxyFh_FWDfp85ss2qpb65kZ7/edit?usp=sharing&ouid=106289085575597209813&rtpof=true&sd=true))
+> [City and State Codes](https://docs.google.com/spreadsheets/d/12A_B-nDtvxyFh_FWDfp85ss2qpb65kZ7/edit?usp=sharing&ouid=106289085575597209813&rtpof=true&sd=true)
 
 ## Network Observability for Production
 
