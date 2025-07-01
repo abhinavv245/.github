@@ -284,3 +284,6 @@ Refer to the following document for the Network Observability API Schema Require
 | Retail | Force Cancellation    | 12/06/2025 | [Implementation Note: Changes &amp; v1.2.5](https://docs.google.com/document/d/1f0BhkGAoAi79lXGhI9qS-MhwdsSK390iJT1KjGMWoc4/edit?tab=t.tbw83ne54agk#heading=h.hsb8ut13qlci) |
 | Retail | Feature List          | 12/06/2025 | [Feature List](https://docs.google.com/spreadsheets/d/1tINL6xyYXG1mKjvnO9Mtzr_MRMHiRzTVqJbyyQyHEgQ/edit?gid=147707807#gid=147707807)                                        |
 | Retail | Lookup API Update     | 12/06/2025 | [FAQ Draft v0.2](https://docs.google.com/document/d/1Tj_tcex65WjLKflt9a8cxp2L4kNFLTpbgXHk5J2EpaY/edit?tab=t.0#heading=h.hzrjpor3fbt1)                                       |
+### Stay Informed About Product and Feature Updates
+
+To receive notifications regarding product updates and new feature releases, please provide your email address and domain [here](https://docs.google.com/forms/d/e/1FAIpQLSci6dEcPwf2drUnb3yWt4aHLmfrkzE3GDMv8wvbyNMh8_3mnw/viewform).
