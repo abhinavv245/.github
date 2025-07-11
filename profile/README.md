@@ -28,6 +28,7 @@ This comprehensive guide is designed to walk you through the process of integrat
 15. [City and State codes](#city-and-state-codes)
 16. [Technical support](#technical-support)
 17. [Latest Updates](#latest-updates)
+18. [Release Calender](#release-calender)
 
 ## Getting Started
 
@@ -161,7 +162,7 @@ This domain encompasses subcategories such as **grocery (RET10), food and bevera
 
 | **Domain**   | **API Contract / Developer Guide**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | **Test Scenarios** | **Log Utility**                                                             | **Mock Server / Sandbox / Reference Application** | **FAQs**                                                                                     |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------ | --------------------------------------------------------------------------------- | ------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| **Services** | -[PRD](https://drive.google.com/drive/folders/14eHd-AQm-lkyBoh6JZDk1kCuVQxvTMFE)  <br />- [v2.0.0](https://github.com/ONDC-Official/ONDC-SRV-Specifications)  <br />- [Services Developer Guide](https://ondc-official.github.io/ONDC-SRV-Specifications/#) **Select version:** <br />- For Skilled Services: `release-services` <br />- For Auction of Agricultural Outputs: `draft-agri_bids_and_auction`- For Equipment Hiring (Leasing Farming Machinery and Tools): `draft-agri_equipment` <br />- For Soil Testing and Assaying Service: `draft-agri_services` <br />- For Healthcare Services (Lab Test Booking): `draft-healthcare` <br />- For Weighment Services: `draft-weighment` | NA                       | [Services Log Verification](https://github.com/ONDC-Official/log-validation-utility) | [Sandbox](https://mock.ondc.org/)                          | [Services FAQs](https://docs.google.com/document/d/1e_nGOnYb4ld1kxjhOHOsXXOms96aDd6txD8Wh2wl6tk/edit) |
+| **Services** | -[PRD](https://drive.google.com/drive/folders/14eHd-AQm-lkyBoh6JZDk1kCuVQxvTMFE)  <br />- [v2.0.0](https://github.com/ONDC-Official/ONDC-SRV-Specifications)  <br />- [Services Developer Guide](https://ondc-official.github.io/ONDC-SRV-Specifications/#) **Select version:** <br />- For Skilled Services: `release-services` <br />- For Auction of Agricultural Outputs: `draft-agri_bids_and_auction`- For Equipment Hiring (Leasing Farming Machinery and Tools): `draft-agri_equipment` <br />- For Soil Testing and Assaying Service: `draft-agri_services` <br />- For Healthcare Services (Lab Test Booking): `draft-healthcare` <br />- For Weighment Services: `draft-weighment` <br />- For Warehouse as a Service: `draft-warehouse` | NA                       | [Services Log Verification](https://github.com/ONDC-Official/log-validation-utility) | [Sandbox](https://mock.ondc.org/)                          | [Services FAQs](https://docs.google.com/document/d/1e_nGOnYb4ld1kxjhOHOsXXOms96aDd6txD8Wh2wl6tk/edit) |
 
 - ### Media, Entertainment, Content (MEC)
 
@@ -287,3 +288,7 @@ Refer to the following document for the Network Observability API Schema Require
 ### Stay Informed About Product and Feature Updates
 
 To receive notifications regarding product updates and new feature releases, please provide your email address and domain [here](https://docs.google.com/forms/d/e/1FAIpQLSci6dEcPwf2drUnb3yWt4aHLmfrkzE3GDMv8wvbyNMh8_3mnw/viewform).
+
+## Release Calender
+
+Minor releases (e.g., bug fixes) will be scheduled around the 15th of each month, while major releases (including new features and patches) will take place at the end of the month.
