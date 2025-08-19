@@ -28,7 +28,7 @@ This comprehensive guide is designed to walk you through the process of integrat
 15. [City and State codes](#city-and-state-codes)
 16. [Technical support](#technical-support)
 17. [Latest Updates](#latest-updates)
-18. [Release Calender](#release-calender)
+18. [Release Calendar](#release-calendar)
 
 ## Getting Started
 
@@ -289,6 +289,6 @@ Refer to the following document for the Network Observability API Schema Require
 
 To receive notifications regarding product updates and new feature releases, please provide your email address and domain [here](https://docs.google.com/forms/d/e/1FAIpQLSci6dEcPwf2drUnb3yWt4aHLmfrkzE3GDMv8wvbyNMh8_3mnw/viewform).
 
-## Release Calender
+## Release Calendar
 
 Minor releases (e.g., bug fixes) will be scheduled around the 15th of each month, while major releases (including new features and patches) will take place at the end of the month.
